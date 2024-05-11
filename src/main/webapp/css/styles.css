@@ -1,0 +1,113 @@
+
+/* Navigation Bar */
+
+#navigation-bar {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0 7% 0;
+    position: fixed; /* Đặt navigation bar cố định */
+    top: 0; /* Vị trí cố định từ phía trên của viewport */
+    left: 0; /* Vị trí cố định từ phía trái của viewport */
+    width: 100%; /* Chiều rộng của navigation bar sẽ bằng với chiều rộng của viewport */
+    z-index: 1000; /* Đảm bảo navigation bar sẽ ở trên cùng so với các phần tử khác */
+}
+body {
+    padding-top:120px;
+}
+
+.header{
+    margin-bottom: 80px;
+}
+.header image{
+    width: 60%;
+}
+
+/* Product */
+#product .row {
+    padding: 3% 10% 3%;
+}
+
+
+#product .list-group {
+    padding-top: 17%;
+}
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    font-size: 14px;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.dog {
+    content: '';
+    position: sticky;
+    width: 100%;
+    height: 202px;
+    background: url(../image/line_footer.png) no-repeat center;
+    margin-bottom: -33px;
+}   
+
+img {
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.desktop-only {
+    display: block;
+}
+.login {
+    background-image: url(../image/dog.jpg);
+    background-size: cover; /* Điều chỉnh kích thước ảnh nền để phủ kín khung */
+    background-position: center; /* Căn giữa ảnh nền */
+}
+.register {
+    background-image: url(../image/dog4.jpg);
+    background-size: cover; /* Điều chỉnh kích thước ảnh nền để phủ kín khung */
+    background-position: center; /* Căn giữa ảnh nền */
+}
+#backgroundCustom {
+    background-image: url(../image/dog2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-transparent {
+    background-color: rgba(0, 123, 255, 0.5) !important; /* Đặt màu nền trong suốt */
+    /* opacity: 0.5; */ /* Hoặc sử dụng opacity để làm cho toàn bộ nút trong suốt */
+    color: white; /* Đảm bảo văn bản trong nút có thể đọc được */
+    border: none; /* Tùy chọn: Loại bỏ viền nếu muốn */
+}
+
